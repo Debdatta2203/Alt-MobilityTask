@@ -1,0 +1,90 @@
+.itemCardContainer {
+    padding: 25px 20px 30px 5px;
+    border: 1px solid #dadadb;
+    border-radius: 5px;
+    margin: 20px 0;
+    position: relative;
+}   
+
+.itemCheckbox {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+.removeItem {
+    font-size: 20px;
+    float: right;
+}
+
+.itemCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemImage {
+    width: 20%;
+}
+
+.itemImage img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.itemDetails {
+    width: 80%;
+    text-align: left;
+}
+
+.itemSeller {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.quantityDiv {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0 12px;
+}
+
+.itemLabel {
+    font-size: 15px;
+}
+
+.itemSelectInput {
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.warningBox {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px 8px 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.itemPrice {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.itemOldPrice {
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.itemDiscount {
+    font-size: 15px;
+}
+
+.itemNotes {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,26 @@
+.container {
+    padding: 1rem;
+}
+
+.cartDetails {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectAllCheckbox {
+    margin-right: 10px;
+}
+
+.cartBtn {
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 30px;
+}
+
+.btnBorderRight {
+    border-right: 1px solid #7e7f81;
+}
