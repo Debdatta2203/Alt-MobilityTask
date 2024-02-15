@@ -2,13 +2,13 @@ import React from "react";
 import { RxCross1 } from "react-icons/rx";
 import "./style.css";
 
-const ItemCard = ({ items, removedItem, setRemovedItem }) => {
+const ItemCard = ({ items, removedItem, setRemovedItem, selectAll }) => {
     console.log("Hi Task", removedItem);
     return (
         <div>
             {items.map((item) => (
                 <div className={`itemCardContainer ${removedItem.includes(item?.name) ? "hide" : ""}`} key={item.name}>
-                    <input className="itemCheckbox" type="checkbox" id={item?.name} value={item?.name} />
+                    <input className="itemCheckbox" type="checkbox" checked id={item?.name} value={item?.name} />
                     <RxCross1 className="removeItem" onClick={() => setRemovedItem(item?.name)} />
                     <div className="itemCard">
                         <div className="itemImage">
